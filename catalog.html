@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Каталог</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-header__wrapper">
+			<a href="index.html" class="page-header__logo"><span class="visually-hidden">Мишка</span></a>
+			<button class="page-header__toggle"><span class="visually-hidden">Меню</span></button>
+			<ul class="page-header__nav main-nav">
+				<li class="main-nav__item main-nav__item--catalog"><a href="#">Каталог товаров</a></li>
+				<li class="main-nav__item"><a href="form.html">Вязание на заказ</a></li>
+				<li class="main-nav__item main-nav__item--tablet">Бесплатная доставка по России</li>
+			</ul>
+			<ul class="page-header__user-nav user-nav">
+				<li class="user-nav__item user-nav__item--search"><a class="user-nav__search-icon" href="#"><span class="user-nav__item--search-hide">Поиск по сайту</span></a></li>
+				<li class="user-nav__item user-nav__item--cart"><a class="user-nav__cart-icon" href="#">Корзина: пока пуста</a></li>
+			</ul>
+		</div>
+		<ul class="page-header__desktop-nav desktop-nav">
+			<li class="desktop-nav__item"><a class="desktop-nav__item--link" href="#">Новые поступления</a></li>
+			<li class="desktop-nav__item desktop-nav__item--two"><a class="desktop-nav__item--link" href="#">Распродажа</a></li>
+			<li class="desktop-nav__item desktop-nav__item--three"><a class="desktop-nav__item--link" href="#">Бесплатная доставка по России</a></li>
+		</ul>
+	</header>
+	<main class="page-main page-main--inner">
+		<div class="page-main__wrapper--catalog">
+			<h1 class="page-main__title page-main__title--catalog">Каталог товаров</h1>
+		</div>
+		<section class="catalog">
+			<h2 class="visually-hidden">Каталог</h2>
+			<ul class="catalog__list">
+				<li class="catalog__item">
+					<a class="catalog__link" href="#">
+						<img class="catalog__img catalog__img--desktop" src="img/catalog/photo-1-desktop.png" alt="Зайчик-попрыгайчик" width="316" height="462">
+						<img class="catalog__img catalog__img--tablet" src="img/catalog/photo-1-tablet.png" alt="Зайчик-попрыгайчик" width="334" height="334">
+						<img class="catalog__img catalog__img--mobile" src="img/catalog/photo-1-mobile.png" alt="Зайчик-попрыгайчик" width="260" height="195">
+					</a>
+					<div class="catalog__wrapper">
+						<h3 class="catalog__title--item"><a href="#">Зайчик-попрыгайчик</a></h3>
+						<span class="catalog__stats">Рост 30 см, вес 200 г</span>
+						<span class="catalog__price">1 200 руб.</span>
+					</div>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__link" href="#">
+						<img class="catalog__img catalog__img--desktop" src="img/catalog/photo-2-desktop.png" alt="Зайчик-попрыгайчик" width="316" height="462">
+						<img class="catalog__img catalog__img--tablet" src="img/catalog/photo-2-tablet.png" alt="Зайчик-попрыгайчик" width="334" height="334">
+						<img class="catalog__img catalog__img--mobile" src="img/catalog/photo-2-mobile.png" alt="Корзинка для белья" width="260" height="195">
+					</a>
+					<div class="catalog__wrapper">
+						<h3 class="catalog__title--item"><a href="#">Корзинка для белья</a></h3>
+						<span class="catalog__stats">Диаметр 15 см, высота 10 см</span>
+						<span class="catalog__price">690 руб.</span>
+					</div>
+				</li>
+				<li class="catalog__item">
+					<a class="catalog__link" href="#">
+						<img class="catalog__img catalog__img--desktop" src="img/catalog/photo-3-desktop.png" alt="Зайчик-попрыгайчик" width="316" height="462">
+						<img class="catalog__img catalog__img--tablet" src="img/catalog/photo-3-tablet.png" alt="Зайчик-попрыгайчик" width="334" height="334">
+						<img class="catalog__img catalog__img--mobile" src="img/catalog/photo-3-mobile.png" alt="Большая корзинка для игрушек" width="260" height="195">
+					</a>
+					<div class="catalog__wrapper"> 
+						<h3 class="catalog__title--item"><a href="#">Корзинка для игрушек</a></h3>
+						<span class="catalog__stats">Диаметр 30 см, высота 30 см</span>
+						<span class="catalog__price">1 500 руб.</span>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="video">
+			<h2 class="visually-hidden">Видео</h2>
+			<ul class="video__list">
+				<li class="video__item">
+					<h2 class="video__title--item">Процесс производства</h2>
+					<div class="video__video">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/fWo4Mmp_UJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div class="video__item--wrapper">
+						<p class="video__text">
+							По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+						</p>
+						<a href="#" class="button video__btn popup-btn">Сделать заказ</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="page-footer--inner">
+		<ul class="page-footer__social">
+			<li class="page-footer__items page-footer__items--inst"><a href="#"><span class="visually-hidden">Инстаграм</span></a></li>
+			<li class="page-footer__items page-footer__items--fb"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+			<li class="page-footer__items page-footer__items--twit"><a href="#"><span class="visually-hidden">Твиттер</span></a></li>
+		</ul>
+		<span class="page-footer__autor">Axesthump</span>
+	</footer>
+	<div class="modal">
+		<div class="modal-add">
+			<h2 class="modal-add__title">
+				Добавить в корзину
+			</h2>
+			<span class="modal-add__text">Выберите размер:</span>
+			<form action="" class="modal-add__form">
+				<div class="modal-add__wrapper">
+					<label>
+						<input class="modal-add__radio visually-hidden" type="radio" name="size" value="s" checked>
+						<span class="modal-add__title-input">s</span>
+					</label>
+					<label>
+						<input class="modal-add__radio visually-hidden" type="radio" name="size"value="m">
+						<span class="modal-add__title-input">m</span>
+					</label>
+					<label>
+						<input class="modal-add__radio visually-hidden" type="radio" name="size" value="l">
+						<span class="modal-add__title-input">l</span>
+					</label>
+				</div>
+				<a href="#" class="button modal-add__btn">Добавить</a>
+			</form>
+		</div>
+	</div>
+</body>
+<script src="js/scripts.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/youtoube.js"></script>
+</html>
